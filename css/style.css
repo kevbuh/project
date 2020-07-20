@@ -109,7 +109,7 @@ html{
 
     .menu-toggler{
         display: block!important;
-        margin-left: 250px;
+        margin-left: 20rem;
     }
 
     .menu-toggler.active span:nth-child(1){
@@ -213,7 +213,7 @@ html{
 
     .news-picture{
         width: 40rem !important;
-        margin-top: 80rem !important;
+        margin-top: 40rem !important;
     }
 
     .newsletter-form {
@@ -255,8 +255,16 @@ html{
         max-width: 100%;
     }
     
+    
 }
 
+@media screen and (max-width: 500px){
+    .menu-toggler{
+        display: block!important;
+        margin-left: 9rem;
+    }
+
+}
 
 
 /* Navigation*/
