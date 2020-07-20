@@ -8,7 +8,7 @@
 }
 
 .inner-width {
-    max-width: calc(100% - 2em);
+    max-width: 70%;
     margin: auto;
     padding: 0px 40px;
 }
@@ -52,9 +52,20 @@ html{
 
 /* @Media */
 
+
+@media screen and (min-width: 900px){
+    .work{
+        width: calc(25% - 10px) !important;
+    }
+
+    
+}
+
+
 @media screen and (max-width: 545px) {
-    #home {
-        display: none;
+    
+    .work{
+        width: calc(50%-10px) !important;
     }
 
     .navbar-menu input{
@@ -64,12 +75,20 @@ html{
     .browse-text-image h1{
         right: 3rem !important;
     }
+
+    .nameZoneHome{
+        width: 18rem !important;
+    }
     
 }
 
 @media screen and (max-width: 590px){
     .browse-text-image h1{
         font-size: 85px !important;
+    }
+
+    .work{
+        width: calc(33%-20px);
     }
 }
 
@@ -312,6 +331,12 @@ html{
     }
 }
 
+@media screen and (max-width:700px){
+    #home .content h1 {
+        font-size: 2rem !important;
+    }
+}
+
 
 /* Navigation*/
 .navbar {
@@ -326,10 +351,16 @@ html{
     float: right !important;
 }
 
-.navbar .inner-width{
+.min-menu{
+    margin-left: 20px;
+}
+
+.navbar-inner-width {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    max-width: 100%;
+    margin: auto;
 }
 
 .logo{
@@ -537,12 +568,11 @@ span .home-search{
 #home .content {
     width: 100%;
     color: #111111;
-    background-color:#f1f1f1;
     position: relative;
 }
 
 #home .content h1{
-    font-size: 60px;
+    font-size: 3rem;
 }
 
 #home .buttons a{
@@ -686,7 +716,7 @@ width: calc(80% + 20px);
 
 /* Section */
 section {
-    padding: 100px 0;
+    padding: 10px 0;
     background-color: #f1f1f1!important;
     margin: 20px 0 ;
 }
@@ -840,53 +870,26 @@ section.dark .section-title::after {
 }
 
 .service {
-    width: calc(33% - 20px);
+    width: calc(33% - 9px);
     text-align: center;
     border: 1px solid var(--primary-color);
     border-radius: 6px;
     margin: 20px 0;
-    padding: 40px 20px;
+    padding: 100px 4px;
     color: #ffffff;
     cursor: pointer;
     transition: 0.3s linear;    
 }
 
-.service:nth-child(1) {
-    background: url(../images/frgvn-tshirt.jpg) no-repeat center;
-}
-
-.service:nth-child(2) {
-    background: url(../images/stock-pink.jpg) no-repeat center;
+.service::after {
     color: #111111;
 }
 
-.service:nth-child(3) {
-    background: url(../images/stock-hoodies.jpg) no-repeat center;
+.service span{
+    color: #111111;
+    font-size: 1.3rem;
 }
 
-.service:nth-child(4) {
-    background: url(../images/stock-red.jpg) no-repeat center;
-}
-
-.service:nth-child(5) {
-    background: url(../images/stock-shorts.png) no-repeat center;
-}
-
-.service:nth-child(6) {
-    background: url(../images/stock-portland.jpg) no-repeat center;
-}
-
-.service .icon {
-    color: #ffffff;
-    font-size: 40px;
-    margin-bottom: 20px;
-    transition: 0.3s linear;
-}
-
-.service h4{
-    font-size: 16px;
-    margin-bottom: 6px;
-}
 
 .service:hover {
     background-color: var(--primary-color);
@@ -952,7 +955,6 @@ section.dark .section-title::after {
 
 /* Work */
 .work{
-    width: calc(33% - 10px);
     overflow: hidden;
     border-radius: 6px;
     margin: 10px 0;
