@@ -73,6 +73,21 @@ html{
     }
 }
 
+@media screen and (max-width: 430px){
+    .browse-text-image h1{
+        font-size: 75px !important;
+    }
+
+
+    section{
+        padding: 10px 0 !important;
+    }
+
+    .browse-picture{
+        height: 40vh !important;
+    }
+}
+
 @media screen and (max-width: 1168px){
     .navbar {
         width: 80%;
@@ -1388,7 +1403,6 @@ footer .login{
 /* Browse*/
 
 .browse-container {
-    min-height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -1401,28 +1415,14 @@ footer .login{
     width: 100%;
     background: url(../images/stock-mtn.jpeg) no-repeat center;
     background-size: cover;
-    height: 100vh;
+    height: 50vh;
     margin-top: 11rem;
     position: relative;
     text-align: center;
 }
 
-.browse-text{
-    width: 50%;
-    padding: 200px 8%;
-}
 
-.browse-text h1{
-    margin-bottom: 20px;
-    color: #111111;
-    font-weight: 900;
-}
 
-.browse-text p{
-    margin-bottom: 40px;
-    font-size: 14px;
-    color: #777;
-}
 
 .browse-text-image h1{
     position: absolute;
