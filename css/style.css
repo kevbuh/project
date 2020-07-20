@@ -61,6 +61,16 @@ html{
         padding-left: 1rem;
     }
     
+    .browse-text-image h1{
+        right: 3rem !important;
+    }
+    
+}
+
+@media screen and (max-width: 590px){
+    .browse-text-image h1{
+        font-size: 85px !important;
+    }
 }
 
 @media screen and (max-width: 1168px){
@@ -74,6 +84,10 @@ html{
 
     .mobile {
         display: none;
+    }
+
+    .browse-text-image h1{
+        right: 45%;
     }
 
 }
@@ -221,11 +235,20 @@ html{
         width: 20rem;
     }
 
+
+
+    .browse-text-image h1{
+        right: 8rem !important;
+    }
 }
 
 @media screen and (max-width: 700px){
     .inner-width{
         padding: 0 20px;
+    }
+
+    .browse-text-image h1{
+        right: 5rem !important;
     }
 
     .newsletter{
@@ -1380,6 +1403,8 @@ footer .login{
     background-size: cover;
     height: 100vh;
     margin-top: 11rem;
+    position: relative;
+    text-align: center;
 }
 
 .browse-text{
@@ -1397,6 +1422,15 @@ footer .login{
     margin-bottom: 40px;
     font-size: 14px;
     color: #777;
+}
+
+.browse-text-image h1{
+    position: absolute;
+    z-index: 2;
+    font-size: 8rem;
+    right: 30%;
+    top: 18%;
+    color: #ffffff;
 }
 
 .browse-form{
