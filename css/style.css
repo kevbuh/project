@@ -264,6 +264,13 @@ html{
         margin-left: 9rem;
     }
 
+    .news-picture{
+        margin-top: 8rem!important;
+    }
+
+    .inner-width{
+        padding: 0px 5px;
+    }
 }
 
 
