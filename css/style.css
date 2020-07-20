@@ -397,7 +397,8 @@ html{
 @media screen and (max-width: 500px){
     .menu-toggler{
         display: block!important;
-        margin-left: 7.8rem;
+        margin-left: 6rem;
+        margin-right: 1rem;
     }
 
     .news-picture{
