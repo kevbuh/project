@@ -56,6 +56,11 @@ html{
     #home {
         display: none;
     }
+
+    .navbar-menu input{
+        padding-left: 1rem;
+    }
+    
 }
 
 @media screen and (max-width: 1168px){
@@ -133,6 +138,7 @@ html{
     .fa-search {
         display: none !important;
         cursor: none;
+        color: transparent;
     }
 
     .min-menu {
@@ -144,11 +150,6 @@ html{
 
     .min-menu .nav-logo{
         margin: 0px 10px;
-    }
-
-
-    .fa-search{
-        color: transparent;
     }
 
 
@@ -213,7 +214,7 @@ html{
 
     .news-picture{
         width: 40rem !important;
-        margin-top: 40rem !important;
+        margin-top: 8rem !important;
     }
 
     .newsletter-form {
@@ -359,7 +360,7 @@ html{
 
 .nav-logo img{
     display: flex;
-    height: 85px;
+    height: 35px;
     margin: auto;
     padding: 0;
 }
@@ -408,15 +409,13 @@ html{
  }
   
  .fa-search {
-    display: inline-block;
     font-size: inherit;
     height: 1em;
     overflow: visible;
     cursor: pointer;
-    display: flex;
     position: relative;
-    right: -29px;
-    z-index: 999;
+    z-index: 2;
+    right: 0.75rem;
  }
  
 
@@ -430,15 +429,12 @@ html{
     background-color: #ffffff;
     padding-right: 15px;
     box-shadow: none;
-    height: 44px;
-    text-overflow: ellipsis;
-    color: #000;
 }
 
 .navbar-menu input,
 .navbar-menu textarea{
 font-size: 16px;
-padding-left: 45px !important;
+padding-left: 1rem;
 color: #111111;
 text-overflow: ellipsis;
 font-weight: 400;
@@ -1136,7 +1132,7 @@ footer .login{
 }
 
 .logo-code img{
-    height: 80px;
+    height: 50px;
 }
 
 
@@ -1301,6 +1297,7 @@ footer .login{
     background: url(../images/stock-cactus.jpg) no-repeat center;
     background-size: cover;
     height: 40rem;
+    margin-top: 8rem;
 }
 
 .newsletter{
