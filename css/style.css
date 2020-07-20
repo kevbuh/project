@@ -52,7 +52,7 @@ html{
 
 /* @Media */
 
-@media screen and (min-width: 390px){
+@media screen and (max-width: 390px){
     .work{
         width: calc(25% - 10px) !important;
     }
@@ -68,12 +68,14 @@ html{
     }
 
     .navbar-menu a{
-        min-width: 30px;
+        min-height: 30px;
     }
 
    .section-title {
        margin: 14px 5px !important;
    }
+
+   
 }
 
 
@@ -395,7 +397,7 @@ html{
 @media screen and (max-width: 500px){
     .menu-toggler{
         display: block!important;
-        margin-left: 9rem;
+        margin-left: 7.8rem;
     }
 
     .news-picture{
