@@ -68,7 +68,7 @@ html{
     }
 
     .navbar-menu a{
-        min-height: 30px;
+        min-height: 30px !important;
     }
 
    .section-title {
@@ -532,6 +532,7 @@ html{
     list-style: none;
     position: relative;
     text-align: center;
+ 
  }
  /* 
  .stockx-nav li:nth-child(11){
