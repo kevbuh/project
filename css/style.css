@@ -90,6 +90,14 @@ html{
     .work{
         width: calc(33%-20px);
     }
+
+    .about-section{
+        padding: 0;
+    }
+
+    .inner-container{
+        padding: 60xp;
+    }
 }
 
 @media screen and (max-width: 430px){
@@ -124,7 +132,26 @@ html{
         right: 45%;
     }
 
+    .inner-container{
+        padding: 80px;
+    }
+
+
 }
+
+
+@media screen and (max-width: 1000px){
+        .inner-container{
+            width: 100% !important;
+        }
+
+        .about-section{
+            background: none!important;
+        }
+}
+
+
+
 @media screen and (max-width: 890px){
 
     body {
@@ -313,7 +340,9 @@ html{
         max-width: 100%;
     }
     
-    
+    .inner-container{
+        padding: 55px 20px!important;
+    }
 }
 
 @media screen and (max-width: 500px){
@@ -723,7 +752,7 @@ section {
 
 .section-title {
     text-align: center;
-    margin-bottom: 80px;
+    margin: 100px 0px 80px 0px !important;
     position: relative;
     font-size: 26px;
     margin: 20px;
@@ -1478,4 +1507,63 @@ footer .login{
 
 .browse-btn:hover {
     color: #ffffff;
+}
+
+
+
+
+
+/* About Section */
+
+.about-inner-width {
+    width: 100%;
+    margin: auto;
+    padding: 0px 40px;
+}
+
+.about-body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-section{
+    background: url(../images/stock-peace.jpeg) no-repeat left;
+    background-size: 55%;
+    background-color: #fdfdfd;
+    overflow: hidden;
+    padding: 100px 0;
+
+    margin-top: 5rem;
+}
+
+.inner-container{
+    position: relative;
+    height: 40vh;
+    width: 55%;
+    float: right;
+    background-color: #fdfdfd;
+    padding: 150px;
+}
+
+.inner-container h1{
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.about-text{
+    font-size: 13px;
+    color: #545454;
+    line-height: 30px;
+    text-align: justify;
+    margin-bottom: 40px;
+}
+
+.about-skills {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 700;
+    font-size: 13px;
 }
