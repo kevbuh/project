@@ -803,28 +803,28 @@ section.dark .section-title::after {
 }
 
 .service:nth-child(1) {
-    background: url(../imagesdarkcode/frgvn-tshirt.jpg) no-repeat center;
+    background: url(../images/frgvn-tshirt.jpg) no-repeat center;
 }
 
 .service:nth-child(2) {
-    background: url(../imagesdarkcode/stock-pink.jpg) no-repeat center;
+    background: url(../images/stock-pink.jpg) no-repeat center;
     color: #111111;
 }
 
 .service:nth-child(3) {
-    background: url(../imagesdarkcode/stock-hoodies.jpg) no-repeat center;
+    background: url(../images/stock-hoodies.jpg) no-repeat center;
 }
 
 .service:nth-child(4) {
-    background: url(../imagesdarkcode/stock-red.jpg) no-repeat center;
+    background: url(../images/stock-red.jpg) no-repeat center;
 }
 
 .service:nth-child(5) {
-    background: url(../imagesdarkcode/stock-shorts.png) no-repeat center;
+    background: url(../images/stock-shorts.png) no-repeat center;
 }
 
 .service:nth-child(6) {
-    background: url(../imagesdarkcode/stock-portland.jpg) no-repeat center;
+    background: url(../images/stock-portland.jpg) no-repeat center;
 }
 
 .service .icon {
@@ -1283,7 +1283,7 @@ footer .login{
 
 .news-picture,{
     width: 50%;
-    background: url(../imagesdarkcode/stock-cactus.JPG) no-repeat center;
+    background: url(../images/stock-cactus.JPG) no-repeat center;
     background-size: cover;
     height: 40rem;
 }
@@ -1364,7 +1364,7 @@ footer .login{
 
 .browse-picture{
     width: 100%;
-    background: url(../imagesdarkcode/stock-mtn.jpeg) no-repeat center;
+    background: url(../images/stock-mtn.jpeg) no-repeat center;
     background-size: cover;
     height: 100vh;
     margin-top: 11rem;
