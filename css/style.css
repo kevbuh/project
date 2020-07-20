@@ -61,11 +61,11 @@ html{
     .inner-container{
         padding: 0;
         padding-top: 20px !important;
+        padding: 250px 100px;
     }
     
-    .inner-container {
-
-    padding: 250px 100px;
+    .service{
+        padding: 100px 4px;
     }
 }
 
@@ -88,6 +88,13 @@ html{
         width: 18rem !important;
     }
     
+    .inner-container{
+        padding-bottom: 400px !important;
+    }
+
+    .service{
+        padding: 20px 5px;
+    }
     
 }
 
@@ -162,6 +169,10 @@ html{
 
 
 @media screen and (max-width: 890px){
+
+    .service{
+        padding: 30px 5px;
+    }
 
     body {
         overflow-x: hidden;
@@ -491,7 +502,7 @@ html{
     position: relative;
     text-align: center;
  }
-  
+ /* 
  .stockx-nav li:nth-child(11){
     border-radius: 20px;
  }
@@ -508,7 +519,7 @@ html{
     border-radius: 20px;
     background: #ff5a5f;
     color: #ffffff!important;
- }
+ } */
   
  .stockx-nav ul{
     float: right;
@@ -912,7 +923,6 @@ section.dark .section-title::after {
     border: 1px solid var(--primary-color);
     border-radius: 6px;
     margin: 20px 0;
-    padding: 100px 4px;
     color: #ffffff;
     cursor: pointer;
     transition: 0.3s linear;    
