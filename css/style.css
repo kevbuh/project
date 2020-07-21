@@ -8,9 +8,10 @@
 }
 
 .inner-width {
-    max-width: 70%;
+    max-width: 90%;
     margin: auto;
     padding: 0px 40px;
+    margin-top: 6rem;
 }
 
 body {
@@ -52,110 +53,14 @@ html{
 
 /* @Media */
 
-@media screen and (max-width: 390px){
-    .work{
-        width: calc(25% - 10px) !important;
-    }
-
-    .inner-container{
-        padding: 0;
-        padding-top: 20px !important;
-        padding: 100px 50px;
-    }
-    
-    .service{
-        padding: 50px 4px;
-    }
-
-    .navbar-menu a{
-        min-height: 35px !important;
-    }
-
-   .section-title {
-       margin: 14px 5px !important;
-   }
-
-   
-}
 
 
-@media screen and (min-width: 900px){
-    .work{
-        width: calc(25% - 10px) !important;
-    }
-
-    .inner-container{
-        padding: 0;
-        padding-top: 20px !important;
-        padding: 250px 100px;
-    }
-    
-    .service{
-        padding: 100px 4px;
-    }
-}
 
 
-@media screen and (max-width: 545px) {
-    
-    .work{
-        width: calc(50%-10px) !important;
-    }
-
-    .navbar-menu input{
-        padding-left: 1rem;
-    }
-    
-    .browse-text-image h1{
-        right: 3rem !important;
-    }
-
-    .nameZoneHome{
-        width: 18rem !important;
-    }
-    
-    .inner-container{
-        padding-bottom: 400px !important;
-    }
-
-    .service{
-        padding: 20px 5px;
-    }
-    
-}
-
-@media screen and (max-width: 590px){
-    .browse-text-image h1{
-        font-size: 85px !important;
-    }
-
-    .work{
-        width: calc(33%-20px);
-    }
-
-    .about-section{
-        padding: 0;
-    }
-
-    .inner-container{
-        padding: 60xp;
-    }
-}
-
-@media screen and (max-width: 430px){
-    .browse-text-image h1{
-        font-size: 75px !important;
-    }
 
 
-    section{
-        padding: 10px 0 !important;
-    }
 
-    .browse-picture{
-        height: 40vh !important;
-    }
-}
+
 
 @media screen and (max-width: 1168px){
     .navbar {
@@ -190,8 +95,27 @@ html{
         .about-section{
             background: none!important;
         }
+
+        .browse-picture{
+            height: 100%;
+        }
 }
 
+@media screen and (min-width: 900px){
+    .work{
+        width: calc(25% - 10px) !important;
+    }
+
+    .inner-container{
+        padding: 0;
+        padding-top: 20px !important;
+        padding: 250px 100px;
+    }
+    
+    .service{
+        padding: 100px 4px;
+    }
+}
 
 
 @media screen and (max-width: 890px){
@@ -394,6 +318,62 @@ html{
     }
 }
 
+
+@media screen and (max-width:700px){
+    #home .content h1 {
+        font-size: 2rem !important;
+    }
+}
+
+
+
+@media screen and (max-width: 590px){
+    .browse-text-image h1{
+        font-size: 85px !important;
+    }
+
+    .work{
+        width: calc(33%-20px);
+    }
+
+    .about-section{
+        padding: 0;
+    }
+
+    .inner-container{
+        padding: 60xp;
+    }
+}
+
+
+@media screen and (max-width: 545px) {
+    
+    .work{
+        width: calc(50%-10px) !important;
+    }
+
+    .navbar-menu input{
+        padding-left: 1rem;
+    }
+    
+    .browse-text-image h1{
+        right: 3rem !important;
+    }
+
+    .nameZoneHome{
+        width: 18rem !important;
+    }
+    
+    .inner-container{
+        padding-bottom: 400px !important;
+    }
+
+    .service{
+        padding: 20px 5px;
+    }
+    
+}
+
 @media screen and (max-width: 500px){
     .menu-toggler{
         display: block!important;
@@ -410,11 +390,49 @@ html{
     }
 }
 
-@media screen and (max-width:700px){
-    #home .content h1 {
-        font-size: 2rem !important;
+@media screen and (max-width: 430px){
+    .browse-text-image h1{
+        font-size: 75px !important;
+    }
+
+
+    section{
+        padding: 10px 0 !important;
+    }
+
+    .browse-picture{
+        height: 40vh !important;
     }
 }
+
+
+
+@media screen and (max-width: 390px){
+    
+
+    .inner-container{
+        padding: 0;
+        padding-top: 20px !important;
+        padding: 100px 50px;
+    }
+    
+    .service{
+        padding: 50px 4px;
+    }
+
+    .navbar-menu a{
+        min-height: 35px !important;
+    }
+
+   .section-title {
+       margin: 14px 5px !important;
+   }
+
+   
+}
+
+
+
 
 
 /* Navigation*/
@@ -1083,6 +1101,8 @@ section.dark .section-title::after {
 
 
 /*Contact*/
+
+
 .contact-info {
     display: flex;
     justify-content: space-between;
@@ -1411,7 +1431,7 @@ footer .login{
 }
 
 .news-picture{
-    width: 50%;
+    width: 100%;
     background: url(../images/stock-cactus.jpg) no-repeat center;
     background-size: cover;
     height: 40rem;
@@ -1419,8 +1439,7 @@ footer .login{
 }
 
 .newsletter{
-    width: 50%;
-    padding: 200px 8%;
+    padding: 10px 8%;
 }
 
 .newsletter h1{
