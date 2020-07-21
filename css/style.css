@@ -214,11 +214,11 @@ html{
 .navbar-menu input,
 .navbar-menu textarea{
 font-size: 16px;
-padding-left: 1rem;
+padding: 1rem 6rem 1rem 1rem;
 color: #111111;
 text-overflow: ellipsis;
 font-weight: 400;
-width: calc(80% + 20px);
+width: 100%;
 }
 
 .navbar-menu ::placeholder{
@@ -1314,6 +1314,14 @@ footer .login{
 
 @media screen and (max-width: 890px){
 
+    .navbar-menu input{
+        padding: 0;
+    }
+
+    .icon.fas.fa-search.index-search-nav{
+        display: none;
+    }
+
     #home .buttons a{
         margin: 15px 10px !important;
     }
@@ -1379,11 +1387,7 @@ footer .login{
         display: none!important;
     }
 
-    .fa-search {
-        display: none !important;
-        cursor: none;
-        color: transparent;
-    }
+    
 
     .min-menu {
         display: flex;
@@ -1534,6 +1538,10 @@ footer .login{
     .inner-container{
         padding: 60xp;
     }
+
+    .service{
+        width: calc(50% - 8px);
+    }
 }
 
 
@@ -1563,9 +1571,7 @@ footer .login{
         padding-bottom: 400px !important;
     }
 
-    .service{
-        padding: 20px 5px;
-    }
+   
     
     .contact-info .item{
         width: calc(100% - 20px);
@@ -1608,6 +1614,9 @@ footer .login{
 
 @media screen and (max-width: 390px){
     
+    .nameZoneHome{
+        margin: 20px 48px;
+    }
 
     .inner-container{
         padding: 0;
@@ -1624,10 +1633,7 @@ footer .login{
         font-size: 15px;
     }
 
-    .navbar-menu {
-        width: 50%;
-        transform: translateX(100%);
-    }
+    
 
    .section-title {
        margin: 14px 5px !important;
