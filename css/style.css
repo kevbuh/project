@@ -61,6 +61,9 @@ html{
     float: right !important;
 }
 
+
+
+
 .min-menu{
     margin-left: 20px;
 }
@@ -102,6 +105,16 @@ html{
     position: relative;
     transition: 0.3s linear;
 }
+
+.menu-toggler.home span{
+    display: block;
+    height: 3px;
+    background-color: #ffffff;
+    margin: 6px 0;
+    position: relative;
+    transition: 0.3s linear;
+}
+
 
 .navbar-menu {
     display: flex;
@@ -176,9 +189,21 @@ html{
     border: 1px solid #111111;
 }
 
+
+.nav-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-logo span{
+    display: none;
+}
+
 .nav-logo h1{
     font-size: 24px;
     color: #111111;
+    margin: 0;
 }
 
 .nav-logo .home h1{
@@ -188,6 +213,11 @@ html{
 
 .sticky .nav-logo h1{
     color: #111111;
+}
+
+.nav-logo img{
+    transform: scale(0.1);
+    margin-left: 1rem;
 }
 
 
