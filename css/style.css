@@ -1193,7 +1193,7 @@ footer .login{
 
 
 /* About Section */
-
+/*
 .about-inner-width {
     width: 100%;
     margin: auto;
@@ -1243,19 +1243,43 @@ footer .login{
     justify-content: space-between;
     font-weight: 700;
     font-size: 13px;
+} */
+
+
+/* Welcome */
+
+#welcome {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    margin-top: 0;
+    padding: 0;
+    background: url(../images/stock-wideocean.jpeg);
 }
 
+
+#welcome h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13rem;
+    color: #ffffff;
+    right: 30%;
+    top: 18%;
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
 /* @Media */
-
-
-
-
-
-
-
-
-
-
 @media screen and (max-width: 1168px){
     .navbar {
         width: 100%;
@@ -1292,6 +1316,10 @@ footer .login{
 
         .browse-picture{
             height: 40vh;
+        }
+
+        #welcome h1 {
+            font-size: 8rem;
         }
 }
 
@@ -1518,8 +1546,22 @@ footer .login{
     #home .content h1 {
         font-size: 2rem !important;
     }
+
+    #welcome {
+        height: 60vh;
+    }
 }
 
+@media screen and (max-width:650px){
+
+    #welcome h1{
+        font-size: 5rem;
+    }
+
+    #welcome {
+        height: 50vh;
+    }
+}
 
 
 @media screen and (max-width: 590px){
@@ -1541,6 +1583,10 @@ footer .login{
 
     .service{
         width: calc(50% - 8px);
+    }
+
+    #welcome {
+        height: 50vh;
     }
 }
 
@@ -1593,6 +1639,10 @@ footer .login{
     .inner-width{
         padding: 0px 5px;
     }
+
+    #welcome {
+        height: 35vh;
+    }
 }
 
 @media screen and (max-width: 430px){
@@ -1608,6 +1658,8 @@ footer .login{
     .browse-picture{
         height: 40vh !important;
     }
+
+    
 }
 
 
