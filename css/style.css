@@ -110,8 +110,21 @@ html{
     max-width: 2000px;
 }
 
-.navbar-menu a{
+.navbar-menu .home a{
     color: #ffffff;
+    font-size: 15px;
+    font-weight: 500;
+    margin: auto 25px ;
+    transition: 0.2s linear;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 48px;
+}
+
+.navbar-menu a{
+    color: #111111;
     font-size: 15px;
     font-weight: 500;
     margin: auto 25px ;
@@ -137,12 +150,9 @@ html{
 }
 
 .navbar-menu a:hover{
-    color: #111111 !important ;
+    color: #e7e3e3 !important ;
 }
 
-.navbar-menu a:hover{
-    color: #111111 !important ;
-}
 
 
 .sticky {
@@ -150,8 +160,12 @@ html{
     padding: 18px 0;
 }
 
-.index-search-nav{
+.index-search-nav.home{
     color: #ffffff;
+}
+
+.index-search-nav {
+    color: #111111;
 }
 
 .sticky .index-search-nav{
@@ -163,6 +177,11 @@ html{
 }
 
 .nav-logo h1{
+    font-size: 24px;
+    color: #111111;
+}
+
+.nav-logo .home h1{
     font-size: 24px;
     color: #ffffff;
 }
@@ -193,6 +212,10 @@ html{
     text-align: center;
  
  }
+
+
+
+
  /* 
  .stockx-nav li:nth-child(11){
     border-radius: 20px;
@@ -228,12 +251,25 @@ html{
  
 
 
- .nameZoneNav{
+ .nameZoneNav.home{
     outline: none;
     position: relative;
     height: 44px;
     border-radius: 6px;
     border: 1px solid #ffffff;
+    color: white;
+    background-color: transparent;
+    padding-right: 15px;
+    box-shadow: none;
+}
+
+.nameZoneNav{
+    outline: none;
+    position: relative;
+    height: 44px;
+    border-radius: 6px;
+    border: 1px solid #111111;
+    color: #111111;
     background-color: transparent;
     padding-right: 15px;
     box-shadow: none;
@@ -243,15 +279,30 @@ html{
 .navbar-menu textarea{
 font-size: 16px;
 padding: 1rem 40% 1rem 1rem;
+color: #111111;
+text-overflow: ellipsis;
+font-weight: 400;
+width: 100%;
+}
+
+.navbar-menu.home input,
+.navbar-menu textarea{
+font-size: 16px;
+padding: 1rem 40% 1rem 1rem;
 color: #ffffff;
 text-overflow: ellipsis;
 font-weight: 400;
 width: 100%;
 }
 
-.navbar-menu ::placeholder{
+.navbar-menu .home::placeholder{
 font-size: 16px;
 color: #ffffff;
+}
+
+.navbar-menu ::placeholder{
+    font-size: 16px;
+    color: #111111;
 
 }
 
@@ -1360,10 +1411,7 @@ footer .login{
 
 @media screen and (max-width: 890px){
 
-    .navbar-menu input{
-        padding: 0;
-    }
-
+   
     .icon.fas.fa-search.index-search-nav{
         display: none;
     }
@@ -1379,7 +1427,22 @@ footer .login{
     body {
         overflow-x: hidden;
     }
-    
+
+    .navbar-menu.home{
+        position: absolute;
+        height: 100vh;
+        background-color: #111111;
+        top: 0;
+        right: 0px;
+        width: 40%;
+        padding: 80px 50px;
+        transition: .3s linear;
+        transform: translateX(150%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
     .navbar-menu{
         position: absolute;
         height: 100vh;
@@ -1395,6 +1458,7 @@ footer .login{
         align-items: center;
     }
 
+    
     .navbar-menu a{
         display: block;
         font-size: 20px;
@@ -1416,6 +1480,10 @@ footer .login{
     }
 
     .menu-toggler span{
+        background-color: #111111;
+    }
+
+    .menu-toggler .home span{
         background-color: #ffffff;
     }
 
