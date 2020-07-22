@@ -70,7 +70,7 @@ html{
     align-items: center;
     justify-content: space-between;
     max-width: 100%;
-    margin: auto;
+    margin: 0 5%;
 }
 
 .logo{
@@ -111,6 +111,19 @@ html{
 }
 
 .navbar-menu a{
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 500;
+    margin: auto 25px ;
+    transition: 0.2s linear;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 48px;
+}
+
+.sticky .navbar-menu a{
     color: #111111;
     font-size: 15px;
     font-weight: 500;
@@ -123,26 +136,41 @@ html{
     min-height: 48px;
 }
 
+.navbar-menu a:hover{
+    color: #111111 !important ;
+}
 
 .navbar-menu a:hover{
     color: #111111 !important ;
 }
 
-.navbar-menu a:hover:nth-child(11){
-    color: #ffffff !important ;
-}
 
 .sticky {
     background-color: white;
     padding: 18px 0;
 }
 
-.nav-logo img{
-    display: flex;
-    height: 35px;
-    margin: auto;
-    padding: 0;
+.index-search-nav{
+    color: #ffffff;
 }
+
+.sticky .index-search-nav{
+    color: #111111;
+}
+
+.sticky .navbar-menu input{
+    border: 1px solid #111111;
+}
+
+.nav-logo h1{
+    font-size: 24px;
+    color: #ffffff;
+}
+
+.sticky .nav-logo h1{
+    color: #111111;
+}
+
 
 .sticky .navbar-menu a{
     color: #111111;
@@ -204,8 +232,8 @@ html{
     outline: none;
     position: relative;
     height: 44px;
-    border-radius: 3px;
-    border: 1px solid #111111;
+    border-radius: 6px;
+    border: 1px solid #ffffff;
     background-color: transparent;
     padding-right: 15px;
     box-shadow: none;
@@ -215,7 +243,7 @@ html{
 .navbar-menu textarea{
 font-size: 16px;
 padding: 1rem 40% 1rem 1rem;
-color: #111111;
+color: #ffffff;
 text-overflow: ellipsis;
 font-weight: 400;
 width: 100%;
@@ -223,7 +251,7 @@ width: 100%;
 
 .navbar-menu ::placeholder{
 font-size: 16px;
-color: #111111;
+color: #ffffff;
 
 }
 
@@ -347,14 +375,14 @@ width: calc(80% + 20px);
     position: relative;
     height: 84px;
     border-radius: 3px;
-    border: none;
-    background-color: #ffffff;
+    border: 1px solid #111111;
+    background-color: transparent;
     padding-right: 15px;
     box-shadow: none;
     height: 50px;
     text-overflow: ellipsis;
     color: #000;
-    padding-left: 60px;
+    padding: 1rem 40% 1rem 1rem;
     bottom: 12px;
     width: 28.4rem;
     font-size: 23px;
@@ -363,7 +391,7 @@ width: calc(80% + 20px);
 }
 
 .fas.fa-search.home-search{
-    transform: scale(0.7);
+    display: none;
 }
 
 
@@ -1255,13 +1283,13 @@ footer .login{
     margin-top: 0;
     padding: 0;
     background: url(../images/stock-wideocean.jpeg) no-repeat;
+    background-size: cover;
 }
 
 
 #welcome h1{
-    font-family: 'Montserrat', sans-serif;
     font-size: 5rem;
-    color: #ffffff;
+    color: #111111;
     right: 30%;
     top: 18%;
 }
@@ -1385,6 +1413,10 @@ footer .login{
     .menu-toggler{
         display: block!important;
         margin-left: 20rem;
+    }
+
+    .menu-toggler span{
+        background-color: #ffffff;
     }
 
     .menu-toggler.active span:nth-child(1){
@@ -1552,6 +1584,10 @@ footer .login{
 
     #welcome {
         height: 50vh;
+    }
+
+    .nameZoneHome{
+        width: 90%;
     }
 }
 
