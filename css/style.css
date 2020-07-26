@@ -106,7 +106,7 @@ html{
     transition: 0.3s linear;
 }
 
-.menu-toggler.home span{
+.menu-toggler .home span{
     display: block;
     height: 3px;
     background-color: #ffffff;
@@ -1356,7 +1356,7 @@ footer .login{
 
 /* Welcome */
 
-#welcome {
+#welcome-home {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1368,7 +1368,7 @@ footer .login{
 }
 
 
-#welcome h1{
+#welcome-home h1{
     font-size: 5rem;
     color: #111111;
     right: 30%;
