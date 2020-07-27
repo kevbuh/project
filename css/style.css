@@ -1389,10 +1389,10 @@ footer .login {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 80vh;
+    height: 60vh;
     margin-top: 0;
     padding: 0;
-    background: url(../images/stock-mountain-2.jpeg) no-repeat;
+    background: url(../images/stock-wideocean.jpeg) no-repeat top;
     background-size: cover;
 }
 
@@ -1433,19 +1433,19 @@ footer .login {
     color: #ffffff;
 }
 
-/* Buy Page */
-#buy-search {
+/* Womens Page */
+#womens-search {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 50vh;
     margin-top: 0;
     padding: 0;
-    background: url(../images/stock-mtn.jpeg) no-repeat top;
+    background: url(../images/stock-women-4.JPG) no-repeat center;
     background-size: cover;
 }
 
-#buy-search h1 {
+#womens-search h1 {
     font-size: 5rem;
     color: #111111;
     right: 30%;
@@ -1461,19 +1461,19 @@ footer .login {
     color: #111111;
 }
 
-/* Browse Page */
-#browse-search {
+/* Mens Page */
+#mens-search {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 50vh;
+    height: 80vh;
     margin-top: 0;
     padding: 0;
-    background: url(../images/stock-dubai.JPG) no-repeat bottom;
+    background: url(../images/stock-mountain-2.jpeg) no-repeat bottom;
     background-size: cover;
 }
 
-#browse-search h1 {
+#mens-search h1 {
     font-size: 5rem;
     color: #ffffff;
     right: 30%;
