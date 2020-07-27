@@ -21,3 +21,5 @@
 - [] Payment Method
   - [] Stripe
   - [] Notify brand when ordered
+
+* [] Kid Section
