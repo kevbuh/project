@@ -1,19 +1,38 @@
 {
-  "name": "findnue",
+  "name": "FindNue",
   "version": "1.0.0",
-  "description": "",
+  "description": "- [] Vanilla Javascript   - [] Javascript.info - [] Basic MERN/CRUD App   - [] user login   - [] register   - [] authentification   - [] authorization - [] Profile   - [] Profile Picture   - [] Username   - [] Brands you follow   - [] Displayed in navbar when logged in - [] Newsletter   - [] special deals and offers   - [] notified when brands you follow release - [] Search Bar   - [] Search for brands or users   - [] Suggestion system - [] Payment Method   - [] Stripe   - [] Notify brand when ordered",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "cross-env NODE_ENV=production node app",
+    "dev": "cross-env NODE_ENV=development nodemon app"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/kevinbuhlerr/project.git"
   },
+  "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/kevinbuhlerr/project/issues"
   },
-  "homepage": "https://github.com/kevinbuhlerr/project#readme"
+  "homepage": "https://github.com/kevinbuhlerr/project#readme",
+  "dependencies": {
+    "connect-mongo": "^3.2.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.1.0",
+    "express-session": "^1.17.1",
+    "method-override": "^3.0.0",
+    "moment": "^2.27.0",
+    "mongoose": "^5.9.26",
+    "morgan": "^1.10.0",
+    "passport": "^0.4.1",
+    "passport-google-oauth20": "^2.0.0"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.2",
+    "nodemon": "^2.0.4"
+  }
 }

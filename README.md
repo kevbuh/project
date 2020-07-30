@@ -3,7 +3,7 @@
 - [] Vanilla Javascript
   - [] Javascript.info
 - [] Basic MERN/CRUD App
-  - [] user login
+  - [x] user login
   - [] register
   - [] authentification
   - [] authorization
