@@ -23,3 +23,16 @@
   - [] Notify brand when ordered
 
 * [] Kid Section
+
+* [] Privacy Policy
+
+* [] Help link
+
+* []Personal login and register
+
+  - [] Authentification
+  - [] Authorization
+
+* []
+* []
+* []
