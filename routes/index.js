@@ -1,5 +1,6 @@
 const express = require('express');
 const router = express.Router();
+const { ensureAuth, ensureGuest } = require('../middleware/auth');
 
 //@desc Login/ Landing Page
 // @route GET /
@@ -7,7 +8,7 @@ router.get('/', (req, res) => {
 	res.render('dashboard');
 });
 
-router.get('/login', (req, res) => {
+router.get('/login', ensureGuest, (req, res) => {
 	res.render('login');
 });
 
@@ -39,6 +40,17 @@ router.get('/search', (req, res) => {
 
 router.get('/signup', (req, res) => {
 	res.render('signup');
+});
+
+router.get('/account', ensureAuth, (req, res) => {
+	res.render('account', {
+		name: req.user.firstName,
+	});
+});
+
+router.get('/logout', (req, res) => {
+	req.logout();
+	res.redirect('/');
 });
 
 module.exports = router;

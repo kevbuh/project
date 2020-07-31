@@ -21,8 +21,6 @@
 </head>
 
 <body>
-
-
   <!--Nav Bar-->
   <nav class="navbar">
     <div class="navbar-inner-width">
@@ -88,116 +86,75 @@
     </div>
   </nav>
 
-  <!-- Welcome -->
-  <section id="mens-search">
 
-    <div class="mens-search">
-      <h1>Men's </h1>
-      <div class="middle">
-        <span class="home-search">
-          <i class="fas fa-search home-search"></i>
-          <a href="search.html">
-            <input type="text" class="nameZoneHome" placeholder="Search...">
-          </a>
-        </span>
-      </div>
-    </div>
-
-
-
-  </section>
-
-
-  <!--Home-->
-  <section id="home">
-    <div class="inner-width">
-      <div class="content">
-        <h1>Up & Coming</h1>
-
-        <div class="buttons">
-          <a href="buy.html">BUY</a>
-          <a href="sell.html">SELL</a>
-        </div>
-
-      </div>
-    </div>
-  </section>
-
-  <!-- Pictures-->
-  <section id="works" class="dark">
-    <div class="inner-width">
-      <h1 class="section-title">FEATURED BRANDS</h1>
-      <div class="works">
-        <a href="images/stock-beach.jpg" class="work">
-          <img src="images/stock-beach.jpg" alt="f">
-          <div class="info">
-            <h3>Cobbles Classic</h3>
-            <div class="cat">$$$</div>
-          </div>
-        </a>
-        <a href="images/stock-dont.jpg" class="work">
-          <img src="images/stock-dont.jpg" alt="f">
-          <div class="info">
-            <h3>Don't Lie</h3>
-            <div class="cat">$$$</div>
-          </div>
-        </a>
-        <a href="images/stock-nyc.jpg" class="work">
-          <img src="images/stock-nyc.jpg" alt="f">
-          <div class="info">
-            <h3>Custom NYC</h3>
-            <div class="cat">$$$</div>
-          </div>
-        </a>
-
-        <a href="images/stock-graffiti2.jpeg" class="work">
-          <img src="images/stock-graffiti2.jpeg" alt="f">
-          <div class="info">
-            <h3>Wise Winds</h3>
-            <div class="cat">$$$</div>
-          </div>
-        </a>
-      </div>
-    </div>
-  </section>
 
   <!-- Services-->
   <section id="services" class="dark">
     <div class="inner-width">
-      <h1 class="section-title">Categories</h1>
+      <h1 class="section-title"> {{ name }}'s Account</h1>
       <div class="services">
         <div class="service">
 
-          <span>Vintage</span>
+          <a href="./account/security"><i class="fas fa-lock acc-img">Security</i></a>
+
         </div>
 
         <div class="service">
 
-          <span>Street Wear</span>
+          <a href="./account/shop"><i class="fas fa-store acc-img">Shop</i></a>
         </div>
 
         <div class="service">
 
-          <span>Hoodies</span>
+          <a href="./account/info"><i class="fas fa-user-circle acc-img">Info</i></a>
         </div>
 
         <div class="service">
 
-          <span>Shorts</span>
+          <a href="./account/following"><i class="fas fa-users acc-img">Following</i></a>
         </div>
 
         <div class="service">
 
-          <span>Summer Wear</span>
+          <a href="./account/orders"><i class="fas fa-shopping-cart acc-img">Orders</i></a>
         </div>
 
         <div class="service">
 
-          <span>View All</span>
+          <a href="./account/settings"><i class="fas fa-cog acc-img">Settings</i></a>
         </div>
       </div>
     </div>
   </section>
+
+
+  <!-- Welcome -->
+  <section id="account"></section>
+  <h1>Account</h1>
+  <h2>{{ name }}</h2>
+  <h3> Security </h3>
+  <p>Two Step Verification</p>
+  <h3> Selling </h3>
+  <a href="./account/shop">Create Brand Account</a>
+  <p> Seller Level</p>
+  <p> Sales Completed</p>
+  <p> Analytics</p>
+  <h3> Profile </h3>
+  <p> Personal Info </p>
+  <p> Edit profile </p>
+  <p> Upload profile picture </p>
+  <h3> Following </h3>
+  <p> Recently Viewed </p>
+  <p> Discover More </p>
+  <h3> Settings </h3>
+  <p>Searching For: ...</p>
+  <h3> Orders </h3>
+  <a href="/logout">Logout</a>
+
+
+  </section>
+
+
 
   <!--Footer-->
   <footer>

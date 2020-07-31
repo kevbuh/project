@@ -16,10 +16,10 @@ router.get(
 router.get(
 	'/google/callback',
 	passport.authenticate('google', {
-		failureRedirect: '/',
+		failureRedirect: '/login',
 	}),
 	(req, res) => {
-		res.redirect('/dashboard');
+		res.redirect('/account');
 	}
 );
 
