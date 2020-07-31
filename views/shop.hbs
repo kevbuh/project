@@ -17,7 +17,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
-  <script src="js/scripts.js"></script>
+  <script src="../js/scripts.js"></script>
 </head>
 
 <body>
@@ -92,29 +92,20 @@
 
 
   <!-- Welcome -->
+  <section id="account-shop">
+    <h1 class="section-title"> {{ name }}'s Shop</h1>
 
-  <section id="account"></section>
-  <h1 class="section-title"> {{ name }}'s Shop</h1>
-  <h1>Account</h1>
-  <h2>{{ name }}</h2>
-  <h3> Security </h3>
-  <p>Two Step Verification</p>
-  <h3> Selling </h3>
-  <a href="./shop">Create Brand Account</a>
-  <p> Seller Level</p>
-  <p> Sales Completed</p>
-  <p> Analytics</p>
-  <h3> Profile </h3>
-  <p> Personal Info </p>
-  <p> Edit profile </p>
-  <p> Upload profile picture </p>
-  <h3> Following </h3>
-  <p> Recently Viewed </p>
-  <p> Discover More </p>
-  <h3> Settings </h3>
-  <p>Searching For: ...</p>
-  <h3> Orders </h3>
-  <a href="/logout">Logout</a>
+    <div class="shop-stats">
+      <h2>Your Personal Shop Stats: </h2>
+      <p> Selling: </p>
+      <p> Seller Level: </p>
+      <p> Sales Completed: </p>
+      <p> Analytics: </p>
+    </div>
+  </section>
+
+
+
 
 
   </section>
@@ -124,15 +115,88 @@
   <!--Footer-->
   <footer>
     <div class="login">
-      <div class="copyright">
-        &copy; 2020 | FindNue
+      <div class="footer-links">
+        <ul>
+          <h3>Quick Links</h3>
+          <li>
+            <a href="./">Home</a>
+          </li>
+          <li>
+            <a href="./mens">Mens</a>
+          </li>
+          <li>
+            <a href="./womens">Womens</a>
+          </li>
+          <li>
+            <a href="./about">About</a>
+          </li>
+          <li>
+            <a href="./news">News</a>
+          </li>
+          <li>
+            <a href="./account">Account</a>
+          </li>
+        </ul>
       </div>
-      <div class="sm">
-        <a href="https://www.facebook.com/" class="fab fa-facebook-f"></a>
-        <a href="https://www.twitter.com/" class="fab fa-twitter"></a>
-        <a href="https://www.instgram.com/" class="fab fa-instagram"></a>
-        <a href="https://www.linkedin.com/" class="fab fa-linkedin-in"></a>
-        <a href="https://www.youtube.com/" class="fab fa-youtube"></a>
+      <div class="footer-links">
+        <ul>
+          <h3>Your Account</h3>
+          <li>
+            <a href="./account">Account</a>
+          </li>
+          <li>
+            <a href="./account/security">Security</a>
+          </li>
+          <li>
+            <a href="./account/shop">Shop</a>
+          </li>
+          <li>
+            <a href="./account/info">Info</a>
+          </li>
+          <li>
+            <a href="./account/following">Following</a>
+          </li>
+          <li>
+            <a href="./account/orders">Orders</a>
+          </li>
+          <li>
+            <a href="./account/settings">Settings</a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer-links">
+        <ul>
+          <h3>View</h3>
+          <li>
+            <a href="./search">Vintage</a>
+          </li>
+          <li>
+            <a href="./account">Street Wear</a>
+          </li>
+          <li>
+            <a href="./account">Hoodies</a>
+          </li>
+          <li>
+            <a href="./account">Shorts</a>
+          </li>
+          <li>
+            <a href="./account">Summer Wear</a>
+          </li>
+          <li>
+            <a href="./account">View All</a>
+          </li>
+        </ul>
+      </div>
+      <div class="sm footer-links">
+        <a href="https://www.facebook.com/" class="footer-fab fab fa-facebook-f"></a>
+        <a href="https://www.twitter.com/" class="footer-fab fab fa-twitter"></a>
+        <a href="https://www.instgram.com/" class="footer-fab fab fa-instagram"></a>
+        <a href="https://www.linkedin.com/" class="footer-fab fab fa-linkedin-in"></a>
+        <a href="https://www.youtube.com/" class="footer-fab fab fa-youtube"></a>
+      </div>
+
+      <div class="copyright footer-links">
+        &copy; 2020 | FindNue
       </div>
     </div>
   </footer>
