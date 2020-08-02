@@ -42,6 +42,18 @@ router.get('/signup', (req, res) => {
 	res.render('signup');
 });
 
+router.get('/streetwear', (req, res) => {
+	res.render('streetwear');
+});
+
+router.get('/swim', (req, res) => {
+	res.render('swim');
+});
+
+router.get('/outdoors', (req, res) => {
+	res.render('outdoors');
+});
+
 router.get('/account', ensureAuth, (req, res) => {
 	res.render('account', {
 		name: req.user.firstName,

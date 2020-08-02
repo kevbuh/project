@@ -50,6 +50,7 @@ app.use('/', require('./routes/index'));
 app.use('/auth', require('./routes/auth'));
 app.use('/account', require('./routes/account'));
 app.use('/categories', require('./routes/categories'));
+app.use('/seasons', require('./routes/seasons'));
 
 const PORT = process.env.PORT || 3000;
 

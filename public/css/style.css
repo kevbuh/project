@@ -668,7 +668,7 @@ section.dark .section-title::after {
 .service-home {
 	width: calc(50% - 9px);
 	text-align: center;
-	border: 1px solid var(--primary-color);
+	border: 1px solid #f1f1f1;
 	margin: 20px 0;
 	color: #ffffff;
 	cursor: pointer;
@@ -1579,7 +1579,7 @@ about-container {
 	font-size: 1.3rem;
 	color: #ffffff;
 	background-color: #111111;
-	border: 2px solid #111111;
+	border: 3px solid #111111;
 	padding: 1rem;
 }
 
@@ -1660,6 +1660,10 @@ about-container {
 	background: url(../images/stock-men-group.jpeg) no-repeat center;
 }
 
+.block-two.five.women {
+	background: url(../images/stock-women-mountain.jpeg) no-repeat center;
+}
+
 .block-two.ten {
 	background: url(../images/stock-winter.jpeg) no-repeat center;
 }
@@ -1672,24 +1676,52 @@ about-container {
 	background: url(../images/stock-thrasher-door.jpeg) no-repeat center;
 }
 
+.service-home.three.women {
+	background: url(../images/stock-women-streetwear.jpeg) no-repeat top;
+}
+
 .service-home.four {
 	background: url(../images/stock-hawaii.jpeg) no-repeat center;
+}
+
+.service-home.four.women {
+	background: url(../images/stock-women-beach-2.jpeg) no-repeat center;
 }
 
 .service-home.six {
 	background: url(../images/stock-kid.jpeg) no-repeat center;
 }
 
+.service-home.six.women {
+	background: url(../images/stock-women-spring.jpeg) no-repeat center;
+}
+
 .service-home.seven {
 	background: url(../images/stock-women-summer.jpeg) no-repeat bottom;
+}
+
+.service-home.seven.women {
+	background: url(../images/stock-women-summer-1.jpeg) no-repeat bottom;
+}
+
+.service-home.seven.mens {
+	background: url(../images/stock-men-3.jpeg) no-repeat center;
 }
 
 .service-home.eight {
 	background: url(../images/stock-graffiti2.jpeg) no-repeat center;
 }
 
+.service-home.eight.women {
+	background: url(../images/stock-women-fall.jpeg) no-repeat bottom;
+}
+
 .service-home.nine {
 	background: url(../images/stock-snowboard.jpeg) no-repeat center;
+}
+
+.service-home.nine.women {
+	background: url(../images/stock-women-winter.jpeg) no-repeat top;
 }
 
 .service-home.ten {
@@ -1700,16 +1732,32 @@ about-container {
 	background: url(../images/stock-mountain-2.jpeg) no-repeat center;
 }
 
+.service-home.eleven.women {
+	background: url(../images/stock-women-jacket.jpeg) no-repeat center;
+}
+
 .service-home.twelve {
 	background: url(../images/stock-portland.JPG) no-repeat center;
+}
+
+.service-home.twelve.women {
+	background: url(../images/stock-women-sweater.jpeg) no-repeat center;
 }
 
 .service-home.thirteen {
 	background: url(../images/stock-pink.JPG) no-repeat center;
 }
 
+.service-home.thirteen.women {
+	background: url(../images/stock-women-tshirt.jpeg) no-repeat bottom;
+}
+
 .service-home.fourteen {
-	background: url(../images/stock-shorts.png) no-repeat center;
+	background: url(../images/stock-men-shorts.png) no-repeat center;
+}
+
+.service-home.fourteen.women {
+	background: url(../images/stock-women-sunset.jpeg) no-repeat center;
 }
 
 #welcome-home-two {
