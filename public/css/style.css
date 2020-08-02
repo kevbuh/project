@@ -18,6 +18,10 @@ body {
 	background-color: #f1f1f1;
 }
 
+a:visited {
+	color: #000000;
+}
+
 /* :: */
 :root {
 	--primary-color: #a8a8a8;
@@ -64,7 +68,7 @@ html {
 .navbar-inner-width {
 	display: flex;
 	align-items: center;
-	justify-content: space-between;
+
 	max-width: 100%;
 	margin: auto;
 }
@@ -655,13 +659,38 @@ section.dark .section-title::after {
 	width: calc(33% - 9px);
 	text-align: center;
 	border: 1px solid var(--primary-color);
-	border-radius: 6px;
 	margin: 20px 0;
 	color: #ffffff;
 	cursor: pointer;
 	transition: 0.3s linear;
 }
 
+.service-home {
+	width: calc(50% - 9px);
+	text-align: center;
+	border: 1px solid var(--primary-color);
+	margin: 20px 0;
+	color: #ffffff;
+	cursor: pointer;
+	transition: 0.3s linear;
+	height: 20vh;
+	background: #a8a8a8;
+}
+
+.service-home::after {
+	color: #111111;
+}
+
+.service-home span {
+	color: #111111;
+	font-size: 1.3rem;
+}
+
+.service-home:hover {
+	background-color: #444444;
+}
+
+/* 2 */
 .service::after {
 	color: #111111;
 }
@@ -1118,7 +1147,7 @@ footer a {
 
 .news-picture {
 	width: 100%;
-	background: url(../images/stock-cactus.jpg) no-repeat center;
+	background: url(../images/stock-dubai.jpeg) no-repeat center;
 	background-size: cover;
 	height: 40rem;
 	margin-top: 8rem;
@@ -1278,6 +1307,27 @@ footer a {
 }
 
 /* About Section */
+about-container {
+	min-height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: #f1f1f1;
+	width: 100%;
+	flex-wrap: wrap;
+}
+
+.inner-width.about {
+	margin-top: 7rem;
+}
+
+.about-picture {
+	width: 100%;
+	background: url(../images/stock-cactus.jpg) no-repeat center;
+	background-size: cover;
+	height: 40rem;
+	margin-top: 2rem;
+}
 /*
 .about-inner-width {
     width: 100%;
@@ -1344,6 +1394,40 @@ footer a {
 }
 
 #welcome-home h1 {
+	font-size: 5rem;
+	color: #ffffff;
+	right: 30%;
+	top: 18%;
+}
+
+#welcome-home-two {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 60vh;
+	margin-top: 0;
+	padding: 0;
+	background-size: cover;
+}
+
+#welcome-home-two h1 {
+	font-size: 5rem;
+	color: #ffffff;
+	right: 30%;
+	top: 18%;
+}
+
+#welcome-home-three {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 60vh;
+	margin-top: 0;
+	padding: 0;
+	background-size: cover;
+}
+
+#welcome-home-three h1 {
 	font-size: 5rem;
 	color: #ffffff;
 	right: 30%;
@@ -1462,9 +1546,58 @@ footer a {
 	color: #ffffff;
 }
 
+/* Home Two Blocks */
+#homeblocks {
+	display: flex;
+	flex-direction: row;
+}
+
+.inner-width.blocks {
+	margin-top: 0 !important;
+	margin-bottom: 0;
+}
+
+.block-one {
+	padding: 5rem;
+	background: #a8a8a8;
+	margin: 1rem 0;
+	width: 85vw;
+	height: 15vw;
+	text-align: center;
+}
+
+.block-two {
+	padding: 5rem;
+	background: #a8a8a8;
+	margin: 1rem 0;
+	width: 85vw;
+	height: 15vw;
+	text-align: center;
+}
+
+.blocks a {
+	font-size: 1.3rem;
+	color: #ffffff;
+	background-color: #111111;
+	border: 2px solid #111111;
+	padding: 1rem;
+}
+
+.link-a {
+	text-align: center;
+	color: #111111;
+	font-size: 1.7rem;
+	margin-bottom: 2rem;
+	font-weight: 800;
+}
+
 /* Account */
 #account {
 	margin-top: 6rem;
+}
+
+.account-top {
+	text-align: center;
 }
 
 .acc-img {
@@ -1512,6 +1645,79 @@ footer a {
 	font-size: 1.3rem;
 	margin: 0.7rem;
 	padding: 1.5rem 0;
+}
+
+/* Home Pictures*/
+.block-one.one {
+	background: url(../images/stock-men-2.jpeg) no-repeat center;
+}
+
+.block-one.two {
+	background: url(../images/stock-womens-1.jpeg) no-repeat center;
+}
+
+.block-two.five {
+	background: url(../images/stock-men-group.jpeg) no-repeat center;
+}
+
+.block-two.ten {
+	background: url(../images/stock-winter.jpeg) no-repeat center;
+}
+
+.block-two.fifteen {
+	background: url(../images/stock-sky-red-1.JPG) no-repeat center;
+}
+
+.service-home.three {
+	background: url(../images/stock-thrasher-door.jpeg) no-repeat center;
+}
+
+.service-home.four {
+	background: url(../images/stock-hawaii.jpeg) no-repeat center;
+}
+
+.service-home.six {
+	background: url(../images/stock-kid.jpeg) no-repeat center;
+}
+
+.service-home.seven {
+	background: url(../images/stock-women-summer.jpeg) no-repeat bottom;
+}
+
+.service-home.eight {
+	background: url(../images/stock-graffiti2.jpeg) no-repeat center;
+}
+
+.service-home.nine {
+	background: url(../images/stock-snowboard.jpeg) no-repeat center;
+}
+
+.service-home.ten {
+	background: url(../images/stock-india.JPG) no-repeat center;
+}
+
+.service-home.eleven {
+	background: url(../images/stock-mountain-2.jpeg) no-repeat center;
+}
+
+.service-home.twelve {
+	background: url(../images/stock-portland.JPG) no-repeat center;
+}
+
+.service-home.thirteen {
+	background: url(../images/stock-pink.JPG) no-repeat center;
+}
+
+.service-home.fourteen {
+	background: url(../images/stock-shorts.png) no-repeat center;
+}
+
+#welcome-home-two {
+	background: url(../images/stock-orange-sky.jpeg) no-repeat center;
+}
+
+#welcome-home-three {
+	background: url(../images/stock-stars.jpeg) no-repeat center;
 }
 
 /* @Media */
