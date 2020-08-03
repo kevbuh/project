@@ -6,8 +6,8 @@
     - [x] Google
     - [] Personal
   - [] register
-  - [] authentification
-  - [] authorization
+  - [x] authentification
+  - [x] authorization
 
 - [] Profile
 
